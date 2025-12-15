@@ -1,0 +1,212 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+	<style>
+		{box-sizing: border-box}
+.mySlides1, .mySlides2, .mySlide3, .mySlides4 {display: none}
+img {vertical-align: middle;}
+
+
+.slideshow-container {
+  max-width: 500px;
+  position: relative;
+  margin: auto;
+}
+
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+	background-color: rgba(0,0,0,0.5); 
+  box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: #f1f1f1;
+  color: black;
+}
+</style>
+	<link href="../style.css" rel="stylesheet" type="text/css">
+<title>Portfolio</title>
+</head>
+
+	
+<body>
+	<header> My Portfolio </header>
+	<p> This page is to showcase my works of different medias that made for both personal and coursework.</p>
+	
+	<h2> Stylized Potrait </h2>
+	<div class="slideshow-container">
+  <div class="mySlides1">
+    <img src="blond guy.png" style="width:100%">
+  </div>
+
+  <div class="mySlides1">
+    <img src="Albino guy.png" style="width:100%">
+  </div>
+
+  <div class="mySlides1">
+    <img src="Ellie.png" style="width:100%">
+  </div>
+		
+	<div class="mySlides1">
+    <img src="Deena.png" style="width:100%">
+  </div>
+		
+	<div class="mySlides1">
+    <img src="Duma.png" style="width:100%">
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+</div>
+<p> This style is my attempt to draw Arcane inspired character</p>
+
+	<h2>Enviroment Illustration</h2>
+	<div class="slideshow-container">
+  <div class="mySlides2">
+    <img src="Rainy day.png" style="width:100%">
+  </div>
+
+  <div class="mySlides2">
+    <img src="dan.png" style="width:100%">
+  </div>
+
+  <div class="mySlides2">
+    <img src="Corrie.png" style="width:100%">
+  </div>
+		
+	<div class="mySlides2">
+    <img src="Indra.png" style="width:100%">
+ 	 </div>
+	
+	<div class="mySlides2">
+    <img src="stringed wing (2).png" style="width:100%">
+  </div>
+
+	<div class="mySlides2">
+    <img src="Lost Ruin.png" style="width:100%">
+  </div>
+	
+	<div class="mySlides2">
+    <img src="Grocery.png" style="width:100%">
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+</div>
+<p> Here's some of my personal work where i experiment with the background and value</p>
+
+		
+<div class="slideshow-container">
+
+<h2> Character Designs</h2>
+	
+  <div class="mySlides3">
+    <img src="Danial.png" style="width:100%">
+  </div>
+
+  <div class="mySlides3">
+    <img src="Rueben.png" style="width:100%">
+  </div>
+
+  <div class="mySlides3">
+    <img src="Hiransh.png" style="width:100%">
+  </div>
+
+	<div class="mySlides3">
+    <img src="Dead Stars.png" style="width:100%">
+  </div>
+	
+	<div class="mySlides3">
+    <img src="Luminaris.png" style="width:100%">
+  </div>
+	
+<div class="mySlides3">
+    <img src="Teens.png" style="width:100%">
+  </div>
+
+<div class="mySlides3">
+    <img src="Archivist.png" style="width:100%">
+  </div>
+	
+  <a class="prev" onclick="plusSlides(-1, 2)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1, 2)">&#10095;</a>
+</div>
+	<p> Some of my character designs</p>	
+
+<h2>3D Models</h2>
+	
+	<div class="slideshow-container">
+  <div class="mySlides4">
+    <img src="strawberrycream.png" style="width:100%">
+  </div>
+
+  <div class="mySlides4">
+    <img src="coffee machine.png" style="width:100%">
+  </div>
+
+  <div class="mySlides4">
+    <img src="popsicle.png" style="width:100%">
+  </div>
+		
+	<div class="mySlides4">
+    <img src="icecreamcake.png" style="width:100%">
+  </div>
+		
+	<div class="mySlides4">
+    <img src="Cat.png" style="width:100%">
+  </div>
+		
+<a class="prev" onclick="plusSlides(-1, 3)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1, 3)">&#10095;</a>
+</div>
+	<br>
+	<p> These are my 3D models </p>
+	<footer>
+        <p style="color: antiquewhite"> &copy; 2025 Nur Ramieza Aiena Mohd Rosdi. Multimedia Web Programming.</p>
+    </footer>
+	
+	<script>
+let slideIndex = [1,1,1,1];
+let slideId = ["mySlides1", "mySlides2", "mySlides3", "mySlides4"]
+showSlides(1, 0);
+showSlides(1, 1);
+showSlides(1, 2);
+showSlides(2, 3);
+
+function plusSlides(n, no) {
+  showSlides(slideIndex[no] += n, no);
+}
+
+function showSlides(n, no) {
+  let i;
+  let x = document.getElementsByClassName(slideId[no]);
+  if (n > x.length) {slideIndex[no] = 1}    
+  if (n < 1) {slideIndex[no] = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex[no]-1].style.display = "block";  
+}
+</script>
+
+</body>
+</html>
